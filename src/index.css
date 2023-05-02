@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#cart {
+  position: absolute;
+  top: 80;
+  right: 0;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  width: 300px;
+}
+
+#cartRow {
+  display: flex;
+  justify-content: space-between;
+}
+#checkoutRow {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  margin-left: 30px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  height: 80px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navbar-icon {
+  margin-right: 0.5rem;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #f1c40f;
+}
+
+
+
+.links{
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  color: white;
+  column-gap: 10px;
+}
+
+.Li:visited{
+  margin-top: 10px;
+  border: 1px solid red;
+
+color  : white;
+
+
+
+}
